@@ -18,5 +18,17 @@ public class OperatoryMatematyczne {
         System.out.println("Dzielenie " + division); //+
         System.out.println("Modulo " + mod); //+
 
+        firstNumber+=secondNumber; // firstNumber = firstNumber + secondNumber
+        System.out.println("Po dodaniu: " + firstNumber); //10
+        firstNumber-=secondNumber; // firstNumber - secondNumber
+        System.out.println("Po odejmowaniu: " + firstNumber); //4
+        firstNumber*=secondNumber; // firstNumber * secondNumber
+        System.out.println("Po mnożeniu: " + firstNumber); //24
+        firstNumber/=secondNumber; // firstNumber / secondNumber
+        System.out.println("Po dzieleniu: " + firstNumber); // 4
+        firstNumber%=secondNumber; // firstNumber % secondNumber
+        System.out.println("Po modulo: " + firstNumber); //
+
+
     }
 }
