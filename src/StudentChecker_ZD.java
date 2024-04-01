@@ -4,12 +4,17 @@
 public class StudentChecker_ZD {
     public static void main(String[] args) {
 
+       String uczelnia = Student.nazwaUczelni;
+       Student.infoUczelnia();
+
        Student student1 = new Student ();
        student1.imie = "Katarzyna";
        student1.nazwisko ="Komarowska";
        student1.nick = "Kasia";
        student1.email = "kasiakomar@gmail.com";
        student1.numerIndeksu = 123456;
+       String uczelniaKasia = student1.nazwaUczelni;
+       student1.infoUczelnia();
 
        Student student2  = new Student ();
        student2.imie = "Bartosz";
