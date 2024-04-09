@@ -1,4 +1,4 @@
-//Zapytaj użytkownika o wiek.
+package pages;//Zapytaj użytkownika o wiek.
 //W przypadku gdy ma mniej niż 18 lat wypisz na ekranie informację że nie możesz kupić alkoholu.
 //Gdy ma więcej niż 18 lat to podziękuj za zakupy
 
